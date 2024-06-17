@@ -6,6 +6,7 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { Home } from './page/Home'
+
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
 function App() {
   return (

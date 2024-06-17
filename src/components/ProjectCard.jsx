@@ -36,7 +36,10 @@ const ProjectCard = ({ image, title, description, link }) => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
-      <button className='px-6 py-3 rounded-lg bg-[#7843E9] text-white font-bold duration-300 ease-in-out transform hover:-translate-y-1'>VIEW PROJECT LINK</button>
+      <a href={link} target='_blank'>
+      <button className='px-6 py-3 rounded-lg bg-[#7843E9] text-white font-bold duration-300 ease-in-out transform hover:-translate-y-1'>PROJECT</button>
+      </a>
+
       </div>
     </div>
   );

@@ -9,10 +9,10 @@ function HeroSection() {
 
         {/* Left section with conditional responsive classes */}
         <div className="left hidden md:flex md:flex-col md:absolute md:w-16 md:h-[40vh] bg-white mt-[17vw] flex-col items-center justify-evenly gap-5 text-3xl">
-          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' href="#"><i class="ri-github-fill"></i></a>
-          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' href="#"><i class="ri-twitter-x-line"></i></a>
-          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' href="#"><i class="ri-youtube-fill"></i></a>
-          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' href="#"><i class="ri-linkedin-box-fill"></i></a>
+          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' target='_blank' href="https://github.com/rudra-singh01"><i class="ri-github-fill"></i></a>
+          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' target='_blank' href="https://x.com/kunal__singh01"><i class="ri-twitter-x-line"></i></a>
+          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' target='_blank' href="#"><i class="ri-instagram-fill"></i></a>
+          <a className='transition duration-300 ease-in-out transform hover:bg-[#E4D9FB] rounded-lg px-2' target='_blank' href="https://www.linkedin.com/in/rudra-singh-5a6399298/"><i class="ri-linkedin-box-fill"></i></a>
         </div>
 
         {/* Centered content */}
