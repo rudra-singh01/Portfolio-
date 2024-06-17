@@ -1,0 +1,1 @@
+export const Navcomp = ["Home", "About", "Projects", "Contacts",];

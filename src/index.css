@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: leo;
+    src: url(./assets/SourceSansPro-Bold.ttf);
+}
+.navbar{
+    font-family: leo;
+}
+.cont h1{
+    font-family: leo;
+}
+.me h1{
+    font-family: leo;
+}
+.myself h3{
+    font-family: leo;
+}
