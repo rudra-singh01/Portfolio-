@@ -32,10 +32,10 @@ function About() {
                         <p className='text-sm md:text-base tracking-tighter'>I'm open to <span className='text-[#717171] font-bold'>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span className='text-[#717171] font-bold'>Contact me</span>.</p>
                         <button className='px-3 py-2 w-[30%] md:w-[20%] mt-5 rounded-lg bg-[#7843E9] text-white font-bold duration-300 ease-in-out transform hover:-translate-y-1'>CONTACT</button>
                     </div>
-                    <div className="skill w-full md:w-[40%] h-full mt-5 md:mt-0 flex flex-wrap items-center justify-center md:justify-start gap-2">
+                    <div className="skill w-full md:w-[40%] h-full mt-5 md:mt-0  flex flex-wrap items-center justify-center md:justify-start gap-2">
                         <h3 className='text-2xl md:text-3xl w-full'>My Skills</h3>
                         {data.map((value, index) => (
-                            <div key={index} className='w-[45%] md:w-[20%] px-5 py-2 rounded-lg bg-gray-400 text-center text-sm md:text-base tracking-tighter md:tracking-tighter'>{value.skill}</div>
+                            <div key={index} className='w-[45%] flex items-center justify-center md:w-[20%] px-5 py-2 rounded-lg bg-gray-400 text-center text-sm md:text-base tracking-tighter md:tracking-tighter'>{value.skill}</div>
                         ))}
                     </div>
                 </div>

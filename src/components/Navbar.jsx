@@ -33,7 +33,7 @@ const Navbar = () => {
 
     <nav role="navigation" className="fixed top-0 left-0 w-full bg-[#ffffff68] z-30">
       <div className="navbar flex items-center justify-between p-5 h-16">
-        <div className="logo">
+        <div className="logo ">
           <h1 className="mx-10 transition duration-300 ease-in-out transform hover:text-[#7866EF]">
             Rudra Singh
           </h1>
