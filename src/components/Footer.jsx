@@ -8,7 +8,6 @@ function Footer() {
                 <div className="container mx-auto flex justify-center gap-5 text-2xl">
                     <a target='_blank' href="https://github.com/rudra-singh01"><i className="ri-github-fill"></i></a>
                     <a target='_blank' href="https://www.linkedin.com/in/rudra-singh-5a6399298/"><i className="ri-linkedin-box-fill"></i></a>
-                    <a target='_blank' href="#"><i className="ri-instagram-fill"></i></a>
                     <a target='_blank' href="https://x.com/kunal__singh01"><i className="ri-twitter-x-fill"></i></a>
                 </div>
             </div>

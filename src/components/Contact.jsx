@@ -35,7 +35,6 @@ function Contact() {
       alert('Failed to submit form');
     }
   };
-
   return (
     <section id="Contacts">
       <div className="w-full min-h-screen bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] bg-cover bg-center relative">
