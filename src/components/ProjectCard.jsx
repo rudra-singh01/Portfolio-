@@ -1,4 +1,3 @@
-// src/components/ProjectCard.jsx
 import React, { useState } from 'react';
 
 const ProjectCard = ({ image, title, description, link }) => {
@@ -19,7 +18,7 @@ const ProjectCard = ({ image, title, description, link }) => {
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white transition-shadow duration-300 hover:shadow-2xl">
-      <div className="relative transition-all duration-300 ease-in-out w-full h-64 hover:w-[110%] overflow-hidden">
+      <div className="relative capitalize transition-all duration-300 ease-in-out w-full h-64 hover:w-[110%] overflow-hidden">
         <img
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out"
           src={image}
@@ -37,7 +36,7 @@ const ProjectCard = ({ image, title, description, link }) => {
       </div>
       <div className="px-6 pt-4 pb-2">
       <a href={link} target='_blank'>
-      <button className='px-6 py-3 rounded-lg bg-[#7843E9] text-white font-bold duration-300 ease-in-out transform hover:-translate-y-1'>PROJECT</button>
+      <button className='px-6 py-3 rounded-lg bg-[#7843E9] text-white font-bold duration-300 ease-in-out transform hover:-translate-y-1'>VIEW PROJECT</button>
       </a>
 
       </div>

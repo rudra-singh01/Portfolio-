@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
+import portfolioImage from '../assets/Images/portfolio.png';
+import EcommerceImage from '../assets/Images/Ecommerce.png';
 function Project() {
     const projects = [
         {
@@ -9,11 +11,17 @@ function Project() {
             link: 'https://github.com/rudra-singh01/ochi.git'
         },
         {
-            image: 'https://assets-global.website-files.com/644bc965881cba09e414cd5b/6463972a5e962b35a3a50ccb_OG.webp',
-            title: 'sundown',
-            description: 'Sundown Studio is a full service creative studio focusing on end-to-end design',
-            link: 'https://github.com/rudra-singh01/sun-down.git'
-        }
+            image: portfolioImage   ,
+            title: 'portfolio',
+            description: 'this is My portfolio . I made it from scratch using React js  and various npm package and for back-end i use Node,Express and mongoDB',
+            link: 'http://rudraport01.netlify.app/'
+        },
+        {
+            image: EcommerceImage   ,
+            title: 'Ecommerce site',
+            description: 'this is My E-commerce site . I made it from scratch using Next js and various npm package and for back-end i use Node, Express  and mongoDB',
+            link: 'https://github.com/rudra-singh01/E_Commerce'
+        },
     ];
 
     return (
